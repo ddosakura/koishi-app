@@ -1,0 +1,16 @@
+{
+  "name": "koishi-app",
+  "image": "ddosakura/hakke:1.2.0-lit",
+  "runArgs": [
+    "-m=12G"
+  ],
+  "postCreateCommand": "corepack enable",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.fontFamily": "Cascadia Code, Consolas, 'Courier New', monospace",
+        "editor.fontLigatures": true
+      }
+    }
+  }
+}
