@@ -38,7 +38,7 @@
     "start": "koishi start"
   },
   "devDependencies": {
-    "@koishijs/client": "^5.10.0",
+    "@koishijs/client": "5.9.4",
     "@koishijs/plugin-hmr": "^1.2.0",
     "@koishijs/scripts": "^4.1.5",
     "@types/node": "^18.16.9",
